@@ -7,5 +7,5 @@ It is comprised of the following module:<br>
 [CameraXtension](cameraxtension/README.md) which extends the functionality of CameraX.
 
 
-##License
+## License
 AndroidXtensions is licensed under the [Apache 2.0 license](LICENSE).
