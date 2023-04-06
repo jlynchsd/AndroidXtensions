@@ -1,0 +1,1 @@
+-keep class com.androidxtensions.cameraxtension.gl.GlNativeBinding { *; }
