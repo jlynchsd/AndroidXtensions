@@ -9,6 +9,14 @@ functionality.  Its advantages are:
 4. It handles rotation internally, so users don't need to account for it.  Regardless of device or camera orientation, input parameters are always relative to a top-left origin and images always come out the same way.
 5. Works seamlessly with the CameraX PreviewView, so no degradation in functionality compared to CameraX.
 
+## Integration
+To use CameraXtension, add the dependency to your app's `build.gradle` file:
+```
+dependencies {
+    implementation "io.github.jlynchsd.androidxtensions:cameraxtension:1.0.0"
+}
+```
+
 Code samples available at: `/samples/src/main/java/com/androidxtensions/samples/cameraxtension/CameraSamples`
 
 This library is inspired by the work in [Grafika](https://github.com/google/grafika) licensed under Apache 2.0
