@@ -17,6 +17,6 @@ dependencies {
 }
 ```
 
-Code samples available at: `/samples/src/main/java/com/androidxtensions/samples/cameraxtension/CameraSamples`
+Code samples available at: `AndroidXtensions/samples/src/main/java/com/androidxtensions/samples/cameraxtension/CameraSamples`
 
 This library is inspired by the work in [Grafika](https://github.com/google/grafika) licensed under Apache 2.0
