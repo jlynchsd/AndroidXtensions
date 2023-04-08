@@ -23,7 +23,7 @@ class CameraSamples {
         val preview = Preview.Builder().build()
         val configuration = CameraConfiguration.Builder().build()
 
-        // NOTE: SurfaceViews do not support dynamic scaling if the view's size does not match the camera's preview size
+        // NOTE: SurfaceViews do not support dynamic scaling, if the view's size does not match the camera's preview size the image will stretch
         preview.setExtendedSurfaceHolder(surfaceView.holder, activityContext, configuration)
 
         // cameraProvider.bindToLifecycle(lifecycleOwner, cameraSelector, preview)
@@ -90,7 +90,7 @@ class CameraSamples {
         val configuration = CameraConfiguration.Builder()
             .imageAnalysis(TransformationConfiguration.Builder().applyEdgeDetection().build()) { analysisImage ->
                 analysisImage.use {
-                    // run on background thread
+                    // make sure to run analysis on background thread
                 }
             }.build()
 
